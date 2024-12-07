@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"datatypes.sol": "Variables"
+			"variables.sol": "Variables"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,7 +59,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"datatypes.sol": {
+		"variables.sol": {
 			"keccak256": "0xb7e7a8602a9c1cf34622b865d016d47e91bffae1998efe1ef34cf8713ec6dc94",
 			"license": "MIT",
 			"urls": [
