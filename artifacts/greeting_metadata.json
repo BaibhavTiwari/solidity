@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_initialGreeting",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getGreeting",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "greetingMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newGreeting",
+						"type": "string"
+					}
+				],
+				"name": "setGreeting",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"greetings.sol": "greeting"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"greetings.sol": {
+			"keccak256": "0x0b58fd9aaf9f6360a8da665d59032e74919f753c30b2bbfa9fa96d83f66ccb6b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://df7834ed8b82b23ac6757b2ee1ba213f47c30404827818768cc17509db514af1",
+				"dweb:/ipfs/QmPKzymvBPVtQChHWcn1Nya4rkuYiDbxaJBXYm41M1uBvE"
+			]
+		}
+	},
+	"version": 1
+}
