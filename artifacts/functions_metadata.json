@@ -83,7 +83,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/functions.sol": "functions"
+			"functions.sol": "functions"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -97,7 +97,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/functions.sol": {
+		"functions.sol": {
 			"keccak256": "0xdf0d5c83886efaca789c29aee59c9720899a7e70cc4144a2233f9e615a36a152",
 			"license": "MIT",
 			"urls": [
