@@ -1,0 +1,278 @@
+{
+    "contractName": "doWhileLoop",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "count",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "_limit",
+                    "type": "uint256"
+                }
+            ],
+            "name": "increment",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.28+commit.7893614a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"count\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_limit\",\"type\":\"uint256\"}],\"name\":\"increment\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/Lenovo/OneDrive/Desktop/Dev/solidity/ContolStructures/Loops.sol\":\"doWhileLoop\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"c:/Users/Lenovo/OneDrive/Desktop/Dev/solidity/ContolStructures/Loops.sol\":{\"keccak256\":\"0x7762ac26ad6f64ffb24d47f73ac4eeb3be434c30ce92d428495ba1253da2dac3\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8d369abcfdcf90f8fde660c75bd0a9afb74989962d24712601aee9f0011aa318\",\"dweb:/ipfs/QmU8gu4wSwmAXg1XQXcy2vM1QTysD7Ccd6h8YcLbGMJ32o\"]}},\"version\":1}",
+    "bytecode": "6080806040523460135760ca908160188239f35b5f80fdfe60808060405260043610156011575f80fd5b5f3560e01c90816306661abd14607d5750637cf5dab014602f575f80fd5b34607957602036600319011260795760043560015b156070575b5f80545f198114605c576001015f556044565b634e487b7160e01b5f52601160045260245ffd5b805f5410604957005b5f80fd5b346079575f3660031901126079576020905f548152f3fea2646970667358221220c60148bd0b24f80cf783bc71b42e0a2820e944c9f841a3b309aabe9d127e6fa264736f6c634300081c0033",
+    "deployedBytecode": "60808060405260043610156011575f80fd5b5f3560e01c90816306661abd14607d5750637cf5dab014602f575f80fd5b34607957602036600319011260795760043560015b156070575b5f80545f198114605c576001015f556044565b634e487b7160e01b5f52601160045260245ffd5b805f5410604957005b5f80fd5b346079575f3660031901126079576020905f548152f3fea2646970667358221220c60148bd0b24f80cf783bc71b42e0a2820e944c9f841a3b309aabe9d127e6fa264736f6c634300081c0033",
+    "sourceMap": "611:147:0:-:0;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "611:147:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;611:147:0;;;;;;;703:47;;;;;611:147;;;-1:-1:-1;;611:147:0;;;;;;;;703:47;;611:147;;;;;;;;;;;;703:47;611:147;;;735:13;703:47;735:13;611:147;;;;;;;;;;;-1:-1:-1;;611:147:0;;;;;;;;;;",
+    "sourcePath": "c:/Users/Lenovo/OneDrive/Desktop/Dev/solidity/ContolStructures/Loops.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.28+commit.7893614a"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/Lenovo/OneDrive/Desktop/Dev/solidity/ContolStructures/Loops.sol",
+        "exportedSymbols": {
+            "doWhileLoop": [
+                18
+            ]
+        },
+        "id": 19,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "34:23:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "doWhileLoop",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 18,
+                "linearizedBaseContracts": [
+                    18
+                ],
+                "name": "doWhileLoop",
+                "nameLocation": "620:11:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "06661abd",
+                        "id": 3,
+                        "mutability": "mutable",
+                        "name": "count",
+                        "nameLocation": "648:5:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 18,
+                        "src": "636:17:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "uint",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "636:4:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 16,
+                            "nodeType": "Block",
+                            "src": "696:59:0",
+                            "statements": [
+                                {
+                                    "body": {
+                                        "id": 11,
+                                        "nodeType": "Block",
+                                        "src": "705:24:0",
+                                        "statements": [
+                                            {
+                                                "expression": {
+                                                    "id": 9,
+                                                    "isConstant": false,
+                                                    "isLValue": false,
+                                                    "isPure": false,
+                                                    "lValueRequested": false,
+                                                    "nodeType": "UnaryOperation",
+                                                    "operator": "++",
+                                                    "prefix": false,
+                                                    "src": "714:7:0",
+                                                    "subExpression": {
+                                                        "id": 8,
+                                                        "name": "count",
+                                                        "nodeType": "Identifier",
+                                                        "overloadedDeclarations": [],
+                                                        "referencedDeclaration": 3,
+                                                        "src": "714:5:0",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_uint256",
+                                                            "typeString": "uint256"
+                                                        }
+                                                    },
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_uint256",
+                                                        "typeString": "uint256"
+                                                    }
+                                                },
+                                                "id": 10,
+                                                "nodeType": "ExpressionStatement",
+                                                "src": "714:7:0"
+                                            }
+                                        ]
+                                    },
+                                    "condition": {
+                                        "commonType": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        },
+                                        "id": 14,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftExpression": {
+                                            "id": 12,
+                                            "name": "count",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 3,
+                                            "src": "735:5:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "nodeType": "BinaryOperation",
+                                        "operator": "<",
+                                        "rightExpression": {
+                                            "id": 13,
+                                            "name": "_limit",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 5,
+                                            "src": "742:6:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "src": "735:13:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_bool",
+                                            "typeString": "bool"
+                                        }
+                                    },
+                                    "id": 15,
+                                    "nodeType": "DoWhileStatement",
+                                    "src": "703:47:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "7cf5dab0",
+                        "id": 17,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "increment",
+                        "nameLocation": "667:9:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 6,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 5,
+                                    "mutability": "mutable",
+                                    "name": "_limit",
+                                    "nameLocation": "682:6:0",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 17,
+                                    "src": "677:11:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    },
+                                    "typeName": {
+                                        "id": 4,
+                                        "name": "uint",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "677:4:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "676:13:0"
+                        },
+                        "returnParameters": {
+                            "id": 7,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "696:0:0"
+                        },
+                        "scope": 18,
+                        "src": "658:97:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 19,
+                "src": "611:147:0",
+                "usedErrors": [],
+                "usedEvents": []
+            }
+        ],
+        "src": "34:724:0"
+    },
+    "functionHashes": {
+        "count()": "06661abd",
+        "increment(uint256)": "7cf5dab0"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "40400",
+            "executionCost": "99",
+            "totalCost": "40499"
+        },
+        "external": {
+            "count()": "2247",
+            "increment(uint256)": "infinite"
+        }
+    }
+}
