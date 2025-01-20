@@ -1,6 +1,16 @@
 // SPDX-License-Identifier: MIT 
 pragma solidity ^0.8.0;
 
+contract ForLoop {
+  uint[] public numbers;
+
+  function addNumbers(uint _limit) public{
+    for(uint i=0;i<_limit;i++){
+      numbers.push(i);
+    }
+  }
+}
+
 //--------------------------------------------------------------//
 
 contract whileLoop {
